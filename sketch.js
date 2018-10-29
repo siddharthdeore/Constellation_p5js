@@ -38,11 +38,6 @@ Particle.prototype.ins = function(x,y) {
 	this.x+=x;
 	this.y+=y;
 }; 
-
-Particle.prototype.ins = function(x,y) {
-	this.x+=x;
-	this.y+=y;
-}; 
 Particle.prototype.update = function(x,y,vx,vy) {
 	this.x=x;
 	this.y=y;
